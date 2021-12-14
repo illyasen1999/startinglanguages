@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" href="amogus.png">
+   <title>Web Dev Languages Home</title>
+
+   <style>
+      :root{
+   --primary-color: #FFFFFF;
+   --secondary-color: #00171F;
+   --darkblue-color: #003459;
+   --mediumdarkblue-color: #007EA7;
+   --lightblue-color: #00A8E8;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body, html{
+   scroll-behavior: smooth;
+   width: 100%;
+   height: 100%;
+   background-image: url(back1.png)
+}
+header{
+   background-color: var(--secondary-color);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+}
+#modal-button{
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+a, #modal-button{
+   text-decoration: none;
+   color: beige;
+}
+li, #modal-button{
+   list-style: none;
+   padding: 5px 10px;
+}
+li:hover, #modal-button:hover{
+   background-color: var(--darkblue-color);
+   border-radius: 15px;
+}
+ul{
+   display: flex;
+   gap: 1rem;
+   padding: 5px 10px;
+   background-color: var(--lightblue-color);
+   border-radius: 20px;
+}
+main{
+   display: flex;
+   justify-content: center;
+}
+form{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 5px 10px;
+   margin: 20px 0;
+   display: grid;
+   color: var(--primary-color);
+   background-color: var(--darkblue-color);
+   border-radius: 20px;
+   width: 40%;
+}
+form a{
+   text-decoration: underline;
+   
+}
+form h1{
+   text-align: center;
+}
+   </style>
+</head>
+<body>
+   <!--Header & Navigation-->
+   <header>
+      <h1 style="color: white;">
+         Starting
+      </h1>
+
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <form action='GET'>
+         <h1>Sign Up</h1> <br>
+               <label for="">Username: </label> 
+               <input type="text" name="username" class="username" id="username" placeholder="Username here..." required> <br>
+               <label for="">Password:</label>
+               <input type="password" name="password" class="password" id="password" placeholder="Password here..." required> <br>
+               <label for="">Email:</label>
+               <input type="email" name="email" class="email" id="email" placeholder="Email here..." required> <br>
+               <br>
+               <button type="submit" class="register" id="register">Register</button> <br>
+      </form>
+   </main>
+         
+</body>
+</html>

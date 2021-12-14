@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="icon" href="amogus.png">
+   <script defer src="app.js"></script>
+   <title>Web Dev Languages Home</title>
+</head>
+<body>
+   <!--Header & Navigation-->
+   <header>
+      <h1 style="color: white;">
+         Starting
+      </h1>
+
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#starting">Starting</a></li>
+            <li><a href="#popular">Popular</a></li>
+            <button id="modal-button">Login</button>
+         </ul>
+      </nav>
+
+      <!--Login Modal-->
+      <div id="simpleModal" class="modal">
+         <div class="modal-content">
+            <span id="closedBtn">&times;</span>
+            <form action='POST'>
+               <h1>Login</h1>
+               <label for="">Username: </label>
+               <input type="text" name="username" class="username" id="username" placeholder="Username here..." required> <br>
+               <label for="">Password:</label>
+               <input type="password" name="password" class="password" id="password" placeholder="Password here..." required> <br>
+               <button type="submit" class="login" id="login">Login</button> <br>
+               <a href="signup.html">Dont have a account?</a>
+            </form>
+         </div>
+      </div>
+      
+   </header>
+
+   <main>
+         <h1 id="starting">
+            Starting Languages for Web Development
+         </h1>
+      <article class="page-1">
+         <div class="about">
+
+            <div class="html">
+               <h1>HTML</h1>
+               <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+               <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Learn More</a>
+            </div>
+            <div class="html-logo">
+               <img src="img/html.png" alt="">
+            </div>
+
+         </div>
+
+         <div class="about">
+
+            <div class="css">
+               <h1>CSS</h1>
+               <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+               <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Learn More</a>
+            </div>
+            <div class="css-logo">
+               <img src="img/css.png" alt="">
+            </div>
+
+         </div>
+
+         <div class="about">
+
+            <div class="js">
+               <h1>Javascript</h1>
+               <p>JavaScript is high-level, often just-in-time compiled and multi-paradigm. It has dynamic typing, prototype-based object-orientation and first-class functions. </p>
+               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn More</a>
+            </div>
+            <div class="js-logo">
+               <img src="img/js.png" alt="">
+            </div>
+
+         </div>
+      </article>
+
+      <h1 id="popular">
+         Popular frameworks
+      </h1>
+      <article class="page-2">
+         <div class="about">
+
+            <div class="reactjs">
+               <h1>React JS</h1>
+               <p>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.</p>
+               <a href="https://reactjs.org/" target="_blank">Learn More</a>
+            </div>
+            <div class="react-logo">
+               <img src="img/reactjs.png" alt="">
+            </div>
+
+         </div>
+
+         <div class="about">
+
+            <div class="vuejs">
+               <h1>Vue JS</h1>
+               <p>Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. </p>
+               <a href="https://vuejs.org/" target="_blank">Learn More</a>
+            </div>
+            <div class="vue-logo">
+               <img src="img/vuejs.png" alt="">
+            </div>
+
+         </div>
+
+         <div class="about">
+
+            <div class="angular">
+               <h1>Angular JS</h1>
+               <p>AngularJS is a JavaScript-based open-source front-end web framework for developing single-page applications.</p>
+               <a href="https://angularjs.org/" target="_blank">Learn More</a>
+            </div>
+            <div class="angular-logo">
+               <img src="img/angularjs.png" alt="">
+            </div>
+
+         </div>
+      </article>
+   </main>
+
+   <footer>
+      Starting Languages&copy;
+   </footer>
+</body>
+</html>
